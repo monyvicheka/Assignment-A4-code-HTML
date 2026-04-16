@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angkor - Kingdom of Wonder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/angkorwat.png">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mycontainer {
+            width: 100%;
+            overflow: auto;
+            display: flex; /* Modern way to align columns */
+            flex-wrap: wrap;
+        }
+
+        .mycontainer > div {
+            width: 33.33%;
+            float: left;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        .nan {
+            padding: 20px;
+            clear: both;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <marquee behavior="slide" direction="down">
+            <img src="images/banner.jpg" alt="Banner" style="width:100%;">
+        </marquee>
+        <a href="https://cost.uc.edu.kh/">Visit Cambodia Tourism</a>
+        <h1>
+            <marquee behavior="scroll" direction="right" scrollamount="8">
+                <img src="images/angkorwat.png" alt="Icon" style="width:80px;height:60px; vertical-align: middle;">
+                🌸 <em>Kingdom of Wonder Tourism</em> 🌸
+            </marquee>
+        </h1>
+    </div>
+
+    <div class="mycontainer">
+        <div style="background-color:#f5eef8;">
+            <h2>Angkor Wat</h2>
+            <img src="images/angkor.jpg" alt="Angkor Wat">
+            <p>Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world. It was originally constructed as a Hindu temple dedicated to the god Vishnu.</p>
+        </div>
+
+        <div style="background-color:#f5eef8;">
+            <h2>Angkor Thom</h2>
+            <img src="images/angkor2.jpg" alt="Angkor Thom">
+            <p>The south gate of Angkor Thom is most popular with visitors, as it has been fully restored and many of the heads remain in place.</p>
+        </div>
+
+        <div style="background-color:#f5eef8;">
+            <h2>Banteay Srei</h2>
+            <img src="images/angkor3.jpg" alt="Banteay Srei">
+            <p>Banteay Srei is a 10th-century Cambodian temple dedicated to the Hindu god Shiva, known as the "jewel of Khmer art."</p>
+        </div>
+    </div>
+
+    <div class="nan">
+        <h2>Detailed History: Angkor Wat Temple</h2>
+        <p>Angkor Wat combines two basic plans of Khmer temple architecture: the temple-mountain and the later galleried temple. It is designed to represent Mount Meru, home of the devas in Hindu mythology.</p>
+        <img src="images/angkorwat.jpg" alt="Angkor Wat Panorama" style="width:100%;">
+    </div>
+
+    <div class="nan">
+        <h2>Detailed History: Banteay Srei</h2>
+        <p>Consecrated on 22 April 967 A.D., Banteay Srei was the only major temple at Angkor not built by a monarch; its construction is credited to the courtiers Vishnukumara and Yajnavaraha.</p>
+    </div>
+
+    <footer>
+        <img src="images/angkorwat.png" width="30" height="30" alt="Logo" style="vertical-align: middle;">
+        <p>Copyright @2026 Cambodia Tourism</p>
+    </footer>
+
+</body>
+</html>
